@@ -39,11 +39,4 @@ The development container is based on the default [codespaces-jupyter](https://g
 ### 2. Documentation
 
 For now, the documentation is captured in simple Markdown files under the `docs/` directory, which can be served directly by GitHub Pages. I plan to migrate this to a static site generator (e.g. Astro or Docusaurus) in the future.
-
-
-## Content
-
-| Article | Description |
-|:---------|:-------------|
-| [Responsible AI Dashboard: Lab](docs/rai-dashboard-lab.md) | Walkthrough of the Responsible AI Dashboard Module on Microsoft Learn |
-| [Responsible AI Dashboard: Module](docs/rai-dashboard-learn.md) | Walkthrough of the Responsible AI Dashboard Module on Microsoft Learn |
+Visit the hosted [GitHub Pages Endpoint](https://30daysof.github.io/responsible-ai/) for the Table Of Contents.
