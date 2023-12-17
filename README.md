@@ -1,13 +1,40 @@
 # Responsible AI in #30Days
 
-This project captures  my learning journey into Responsible AI - from core principles to applied techniques and tools for real-world applications in production. While I plan to explore these topics in a random order based on my immediate requirements, I will organize the content into _Collections_ that bundle together related topics in a sequential manner that is suitable for self-paced learning.
+This project provides a guided roadmap and hands-on exercises to learn about Responsible AI. Content is structured for self-paced learning with a focus on skilling up from core concepts to applied techniques and tools for real-world applications in production - in 30 days.
 
-## Setup
+## Prerequisites
 
-### 1. Dev Container
-This repository is setup to use Dev Containers. You can open this either in GitHub Codespaces (cloud) or with Docker Desktop (local). The Dev Container is instrumented for convenience, not efficiency. In other words, I'm using the default _Universal_ image that can support most popular languages and tools (Python, Node, .NET) and is likely cached on your local Docker Desktop. If you want to optimize for efficiency, you can create a custom image that only includes the tools you need.
+To work through the exercises, you will need:
+ - A GitHub account
+ - Familiarity with Python (language)
+ - Familiarity with Jupyter Notebooks (usage)
+ - Familiarity with Data Science concepts
 
-The dev container is also setup to activate GitHub Copilot Chat out of the box. This is primarily used for productivity in terms of getting inline explainers to new concepts, or helping simplify or test code snippets on demand. Usage of Copilot requires a paid subscription - and is optional for those using this repository simply for learning purposes.
+This is a beginner-friendly series of exercises so you don't need to be an expert in any of the above. 
+
+I've found it helpful to use GitHub Copilot to get inline explainers and help as I go. The development environment should have Copilot extensions installed in Visual Studio Code - but you will need a paid subscription (or be in the 30-day free trial) to use it.
+
+## Learning Objectives
+
+By the end of the #30Days you should be able to:
+ - Explain what Responsible AI is and why it matters
+ - Describe the core principles of Responsbile AI
+ - Describe the Responsible AI Toolbox & components.
+ 
+
+## Get Started
+
+The repository is configured with a [dev container](https://containers.dev) to provide a consistent and reproducible environment for learning. Launch it with [Docker Desktop](https://www.docker.com/products/docker-desktop/) (in your local environment) or [GitHub Codespaces](https://github.com/30daysof/responsible-ai) (in the cloud). 
+
+Using GitHub Codespaces is the easiest way to get started. Click on the button below, review the default configuration and click the _Create Codespace_ environment to confirm.
+
+[![Open in GitHub Codespaces](https://img.shields.io/badge/Open%20in-GitHub%20Codespaces-orange?logo=github)](https://codespaces.new/30daysof/responsible-ai)
+
+The development container is based on the default [codespaces-jupyter](https://github.com/github/codespaces-jupyter/blob/main/.devcontainer/devcontainer.json) template - this is meant for convenience in exploration (e.g., has support for Node.js, Python and related tools) and is not optimized for production usage. You can always _refactor_ the `devcontainer.json` configuration to use more optimized base images and remove unused or unnecessary tools in your own fork.
+
+## Learning Objectives
+
+
 
 ### 2. Documentation
 
