@@ -32,11 +32,6 @@ Using GitHub Codespaces is the easiest way to get started. Click on the button b
 
 The development container is based on the default [codespaces-jupyter](https://github.com/github/codespaces-jupyter/blob/main/.devcontainer/devcontainer.json) template - this is meant for convenience in exploration (e.g., has support for Node.js, Python and related tools) and is not optimized for production usage. You can always _refactor_ the `devcontainer.json` configuration to use more optimized base images and remove unused or unnecessary tools in your own fork.
 
-## Learning Objectives
+## Notebooks
 
 
-
-### 2. Documentation
-
-For now, the documentation is captured in simple Markdown files under the `docs/` directory, which can be served directly by GitHub Pages. I plan to migrate this to a static site generator (e.g. Astro or Docusaurus) in the future.
-Visit the hosted [GitHub Pages Endpoint](https://30daysof.github.io/responsible-ai/) for the Table Of Contents.
