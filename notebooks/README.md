@@ -1,6 +1,8 @@
 # Responsible AI Toolbox Notebooks
 
-This repository contains a collection of Jupyter Notebooks that demonstrate how to use the Responsible AI Toolbox to build Responsible AI solutions. The notebooks here are reproduced and adapted from the [Responsible AI Toolnox: Notebook Tutorials](https://github.com/microsoft/responsible-ai-toolbox/tree/main/notebooks) selection.
+This repository contains a collection of Jupyter Notebooks that demonstrate how to use the Responsible AI Toolbox to build Responsible AI solutions. 
+ - Notebooks here are reproduced from the [Responsible AI Toolnox: Notebook Tutorials](https://github.com/microsoft/responsible-ai-toolbox/tree/main/notebooks) for learning purposes only.
+ - Read [this May 2022 Technical Community Blog Post](https://techcommunity.microsoft.com/t5/ai-machine-learning-blog/responsible-ai-dashboard-and-scorecard-in-azure-machine-learning/ba-p/3391068) for a comprehensive overview of the Responsible AI Toolbox.
 
 
 ## 1. What is Responsible AI?
@@ -168,27 +170,22 @@ In the table below, the "Type" of notebook defines the kind of data and model be
 | [Cognitive Services: Speech-to-Text Fairness Testing](https://github.com/microsoft/responsible-ai-toolbox/tree/main/notebooks/cognitive-services-examples/speech-to-text) | Cognitive Services | |
 | [Cognitive Services: Face Verification Fairness Testing](https://github.com/microsoft/responsible-ai-toolbox/tree/main/notebooks/cognitive-services-examples/face-verification)| Cognitive Services | |
 | **[Azure ML](https://github.com/Azure/azureml-examples/tree/main/sdk/python/responsible-ai)**| | |
+| [Diabetes Regression Model Debugging](https://github.com/Azure/azureml-examples/blob/main/sdk/python/responsible-ai/tabular/responsibleaidashboard-diabetes-regression-model-debugging/responsibleaidashboard-diabetes-regression-model-debugging.ipynb) |  Tabular | [sklearn dataset](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_diabetes.html)|
+| [Programmer Regression Model Debugging](https://github.com/Azure/azureml-examples/blob/main/sdk/python/responsible-ai/tabular/responsibleaidashboard-programmer-regression-model-debugging/responsibleaidashboard-programmer-regression-model-debugging.ipynb) |  Tabular | [Programmers MLTable dataset](https://github.com/Azure/azureml-examples/blob/main/sdk/python/responsible-ai/tabular/responsibleaidashboard-programmer-regression-model-debugging/data-programmer-regression) |
+| [Finance Loan Classification](https://github.com/Azure/azureml-examples/blob/main/sdk/python/responsible-ai/tabular/responsibleaidashboard-finance-loan-classification/responsibleaidashboard-finance-loan-classification.ipynb) |  Tabular | [Finance Story dataset](https://github.com/Azure/azureml-examples/blob/main/sdk/python/responsible-ai/tabular/responsibleaidashboard-finance-loan-classification/Fabricated_Loan_data.csv) |
+| [Covid Healthcare Classification](https://github.com/Azure/azureml-examples/blob/main/sdk/python/responsible-ai/tabular/responsibleaidashboard-healthcare-covid-classification/responsibleaidashboard-healthcare-covid-classification.ipynb) |  Tabular | [Healthcare Story dataset](https://github.com/Azure/azureml-examples/blob/main/sdk/python/responsible-ai/tabular/responsibleaidashboard-healthcare-covid-classification/data_covid_classification) |
+| [Education Student Attrition Classification](https://github.com/Azure/azureml-examples/blob/main/sdk/python/responsible-ai/tabular/responsibleaidashboard-education-student-attrition-classificaton/responsibleaidashboard-education-student-attrition-classificaton.ipynb) |  Tabular | [Education Story dataset](https://github.com/Azure/azureml-examples/blob/main/sdk/python/responsible-ai/tabular/responsibleaidashboard-education-student-attrition-classificaton/Fabricated_Student_Attrition_Data.csv) |
+| [Housing Classification Model](https://github.com/Azure/azureml-examples/blob/main/sdk/python/responsible-ai/tabular/responsibleaidashboard-housing-classification-model-debugging/responsibleaidashboard-housing-classification-model-debugging.ipynb) |  Tabular | [Kaggle Housing dataset](https://www.kaggle.com/alphaepsilon/housing-prices-dataset) |
+| [Housing Decision Making](https://github.com/Azure/azureml-examples/blob/main/sdk/python/responsible-ai/tabular/responsibleaidashboard-housing-decision-making/responsibleaidashboard-housing-decision-making.ipynb) |  Tabular | [Kaggle Housing dataset](https://www.kaggle.com/alphaepsilon/housing-prices-dataset) |
+| [Diabetes Decision Making](https://github.com/Azure/azureml-examples/blob/main/sdk/python/responsible-ai/tabular/responsibleaidashboard-diabetes-decision-making/responsibleaidashboard-diabetes-decision-making.ipynb) |  Tabular | [sklearn Diabetes dataset](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_diabetes.html) |
+|[DBPedia Text Classification](https://github.com/Azure/azureml-examples/blob/main/sdk/python/responsible-ai/text/responsibleaidashboard-text-classification-DBPedia.ipynb) | Text | [🤗 DBPedia dataset](https://huggingface.co/datasets/DeveloperOats/DBPedia_Classes) |
+|[Multilabel Text Classification Covid Events](https://github.com/Azure/azureml-examples/blob/main/sdk/python/responsible-ai/text/responsibleaidashboard-multilabel-text-classification-covid-events.ipynb) | Text | [ 🤗  Covid Emergency Events dataset](https://huggingface.co/datasets/joelito/covid19_emergency_event ) |
+|[Text Classification BLBooks Genre](https://github.com/Azure/azureml-examples/blob/main/sdk/python/responsible-ai/responsibleaidashboard-text-classification-blbooksgenre.ipynb) | Text | [🤗  BLBooks Genre dataset]( https://huggingface.co/datasets/blbooksgenre) |
+|[Text Classification Financial News](https://github.com/Azure/azureml-examples/blob/main/sdk/python/responsible-ai/text/responsibleaidashboard-text-classification-financial-news/responsibleaidashboard-text-classification-financial-news.ipynb) | Text | [News Article dataset]( https://github.com/Azure/azureml-examples/blob/main/sdk/python/responsible-ai/text/responsibleaidashboard-text-classification-financial-news/Text_classification_dataset.xlsx) |
+|[Text Question Answering Squad](https://github.com/Azure/azureml-examples/blob/main/sdk/python/responsible-ai/text/responsibleaidashboard-text-question-answering-squad.ipynb) | Text | [🤗 Stanford QA dataset (SQUAD)]( https://huggingface.co/datasets/squad) |
+|[AutoML Image Classifier Fridge](https://github.com/Azure/azureml-examples/blob/main/sdk/python/responsible-ai/vision/responsibleaidashboard-automl-image-classification-fridge.ipynb) | Image | [Fridge Images dataset](https://github.com/microsoft/computervision-recipes/tree/master/scenarios/classification) |
+|[AutoML Object Detection Fridge](https://github.com/Azure/azureml-examples/blob/main/sdk/python/responsible-ai/vision/responsibleaidashboard-automl-object-detection-fridge-private-data.ipynb) | Image | [MIT Computer Vision dataset](https://github.com/microsoft/computervision-recipes) |
+|[Image Classification Fridge](https://github.com/Azure/azureml-examples/blob/main/sdk/python/responsible-ai/vision/responsibleaidashboard-image-classification-fridge.ipynb) | Image | [Fridge Images dataset](https://github.com/microsoft/computervision-recipes/tree/master/scenarios/classification) |
+|[Image Multilabel Classification Fridge](https://github.com/Azure/azureml-examples/blob/main/sdk/python/responsible-ai/vision/responsibleaidashboard-image-multilabel-classification-fridge.ipynb) | Image | [Fridge Images dataset](https://github.com/microsoft/computervision-recipes/tree/master/scenarios/classification) |
+|[Object Detection MSCOCO](https://github.com/Azure/azureml-examples/blob/main/sdk/python/responsible-ai/vision/responsibleaidashboard-object-detection-MSCOCO.ipynb) | Image | [Object Detection Fridge Images ataset](https://github.com/microsoft/computervision-recipes/tree/master/scenarios/detection) |
 | | | |
-| | | |
-| | | |
-
-
-| Notebook | Description |
-| --- | --- |
-| **INTRODUCTION**| |
-| [1. Responsible AI Toolbox Tour](./tabular/tour.ipynb) | Explains components of the RAI Toolbox |
-| [2. Getting Started](./tabular/getting-started.ipynb) | High-level overview of APIs & Tutorials |
-| **TUTORIALS**| |
-| [Census Classification Model Debugging](./tabular/responsibleaidashboard-census-classification-model-debugging.ipynb) | Interpretability & Error Analysis Tutorial |
-| [Diabetes Decision Making Notebook](./tabular/responsibleaidashboard-diabetes-decision-making.ipynb) | Causal Inferencing Tutorial |
-| [Housing Classification Model Debugging](./tabular/responsibleaidashboard-housing-classification-model-debugging.ipynb) | Counterfactuals tutorial |
-| []() | |
-| | |
-
-
-
-
-provides a number of notebooks that we can try out, to get hands-on understanding of this topic. I've made a local copy of the notebooks in this folder, to support self-guided exploration and experimentation.
-
-> [!NOTE]  
-> If you opened this repository in GitHub Codespaces or Docker Desktop, you are all set to run Notebooks. Just `Select Kernel` and pick the Python 3.11 runtime.
