@@ -1,38 +1,9 @@
 import clsx from 'clsx';
-import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
-
-function SectionCard() {
-  return (
-    <div className="card-demo">
-      <div className="card">
-        <div className="card__image">
-          <img
-            src="/img/landing/rai.jpeg"
-            alt="Image alt text"
-            title="Logo Title Text 1" />
-        </div>
-        <div className="card__body">
-          <h4>Quaco Lighthouse</h4>
-          <small>
-            The Quaco Head Lighthouse is a well maintained lighthouse close to St.
-            Martins. It is a short, beautiful walk to the lighthouse along the
-            seashore.
-          </small>
-        </div>
-        <div className="card__footer">
-          <button className="button button--primary button--block">Visit</button>
-        </div>
-      </div>
-    </div>
-  );
-}
-
 
 function PageHeader() {
   const { siteConfig } = useDocusaurusContext();
@@ -72,32 +43,16 @@ function PageFeatures() {
   );
 }
 
-/*
-function Feature({Svg, title, description}) {
-  return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
-      <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
-      </div>
-    </div>
-  );
-}
-*/
-
-function Feature({ Svg, title, description }) {
+function Feature({img, title, description }) {
   return (
     <div className={clsx('col col--4')}>
       <div className="card-demo">
         <div className="card">
           <div className="card__image">
             <img
-              src="https://images.unsplash.com/photo-1506624183912-c602f4a21ca7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
-              alt="Image alt text"
-              title="Logo Title Text 1" />
+              src={img}
+              alt={description}
+              title={title} />
           </div>
           <div className="card__body">
             <h4>{title}</h4>
@@ -116,42 +71,92 @@ function Feature({ Svg, title, description }) {
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Exercise 1',
+    img: "img/landing/rai-collection-1.jpeg",
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        This notebook will walk you through the process of ..... with the Responsible AI Toolkit.
       </>
     ),
   },
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Exercise 2',
+    img: "img/landing/rai-collection-2.jpeg",
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        This notebook will walk you through the process of ..... with the Responsible AI Toolkit.
       </>
     ),
   },
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Exercise 3',
+    img: "img/landing/rai-collection-3.jpeg",
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        This notebook will walk you through the process of ..... with the Responsible AI Toolkit.
       </>
     ),
   },
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Exercise 4',
+    img: "img/landing/rai-collection-4.jpeg",
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        This notebook will walk you through the process of ..... with the Responsible AI Toolkit.
+      </>
+    ),
+  },
+  {
+    title: 'Exercise 5',
+    img: "img/landing/rai-collection-5.jpeg",
+    description: (
+      <>
+        This notebook will walk you through the process of ..... with the Responsible AI Toolkit.
+      </>
+    ),
+  },
+  {
+    title: 'Exercise 6',
+    img: "img/landing/rai-collection-6.jpeg",
+    description: (
+      <>
+        This notebook will walk you through the process of ..... with the Responsible AI Toolkit.
+      </>
+    ),
+  },
+  {
+    title: 'Exercise 7',
+    img: "img/landing/rai-collection-7.jpeg",
+    description: (
+      <>
+        This notebook will walk you through the process of ..... with the Responsible AI Toolkit.
+      </>
+    ),
+  },
+  {
+    title: 'Exercise 8',
+    img: "img/landing/rai-collection-8.jpeg",
+    description: (
+      <>
+        This notebook will walk you through the process of ..... with the Responsible AI Toolkit.
+      </>
+    ),
+  },
+  {
+    title: 'Exercise 9',
+    img: "img/landing/rai-collection-9.jpeg",
+    description: (
+      <>
+        This notebook will walk you through the process of ..... with the Responsible AI Toolkit.
+      </>
+    ),
+  },
+  {
+    title: 'Exercise 10',
+    img: "img/landing/rai-collection-10.jpeg",
+    description: (
+      <>
+        This notebook will walk you through the process of ..... with the Responsible AI Toolkit.
       </>
     ),
   },
