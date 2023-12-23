@@ -31,15 +31,9 @@
 
 [data-theme='light'] .navbar--primary {
   --ifm-navbar-link-color: #ffffff;
-  .clean-btn {
-    color: #ffffff;
-  }
 }
 [data-theme='dark'] .navbar--primary {
   --ifm-navbar-link-color: #000000;
-  .clean-btn {
-    color: #000000;
-  }
 }
 
 .docusaurus-highlight-code-line {

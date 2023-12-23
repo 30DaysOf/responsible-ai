@@ -152,24 +152,24 @@ In the table below, the "Type" of notebook defines the kind of data and model be
 | Notebook | Type | Description |
 | --- | --- | --- |
 | **Introduction**| | |
-| [Responsible AI Toolbox](./tour.ipynb) | -| Tour of the RAI Toolbox as documentation (no code) |
-| [Getting Started](./getting-started.ipynb) | - | Explains high-level APIs and workflows (setup validation) |
+| [Responsible AI Toolbox](notebooks/tabular/tour.ipynb) | -| Tour of the RAI Toolbox as documentation (no code) |
+| [Getting Started](notebooks/tabular/getting-started.ipynb) | - | Explains high-level APIs and workflows (setup validation) |
 | **[RAI Toolbox](https://github.com/microsoft/responsible-ai-toolbox?tab=readme-ov-file#useful-links)**| | |
-| [Census Classification Model Debugging](./tabular/responsibleaidashboard-census-classification-model-debugging.ipynb) | Tabular | |
-|[Diabetes Decision Making ](./tabular/responsibleaidashboard-diabetes-decision-making.ipynb) | Tabular | |
-| [Diabetes Regression Model Debugging](./tabular/responsibleaidashboard-diabetes-regression-model-debugging.ipynb)| Tabular | |
-| [Housing Classification Model](./tabular/responsibleaidashboard-housing-classification-model-debugging.ipynb) | Tabular | |
-| [Housing Decision Making](./tabular/responsibleaidashboard-housing-decision-making.ipynb) | Tabular | |
-| [Multiclass DNN Model Debugging](./tabular/responsibleaidashboard-multiclass-dnn-model-debugging.ipynb) | Tabular | |
-| [Orange Juice Forecasting](./tabular/responsibleaidashboard-orange-juice-forecasting.ipynb) | Tabular | |
-| [Hugging Face BLBooks Genre Text Classification](./text/responsibleaidashboard-blbooksgenre-binary-text-classification-model-debugging.ipynb) |  Text | |
-| [Covid Event Multilabel Text Classification Model Debugging](./text/responsibleaidashboard-covid-event-multilabel-text-classification-model-debugging.ipynb) | Text | |
-| [DBPedia Text Classification Model Debugging](./text/responsibleaidashboard-DBPedia-text-classification-model-debugging.ipynb) | Text | |
-| [OpenAI Model Debugging](./text/responsibleaidashboard-openai-model-debugging.ipynb) | Text | |
-| [Question-Answering Model Debugging ](./text/responsibleaidashboard-question-answering-model-debugging.ipynb) | Text | |
-| [Fridge Image Classification Model Debugging](./vision/responsibleaidashboard-fridge-image-classification-model-debugging.ipynb) | Vision | |
-| [Fridge Multi-label Image Classification Model Debugging](./vision/responsibleaidashboard-fridge-multilabel-image-classification-model-debugging.ipynb)| Vision | |
-| [Fridge Object Detection Model Debugging](./vision/responsibleaidashboard-fridge-object-detection-model-debugging.ipynb)| Vision | |
+| [Census Classification Model Debugging](notebooks/tabular/responsibleaidashboard-census-classification-model-debugging.ipynb) | Tabular | |
+|[Diabetes Decision Making ](notebooks/tabular/responsibleaidashboard-diabetes-decision-making.ipynb) | Tabular | |
+| [Diabetes Regression Model Debugging](notebooks/tabular/responsibleaidashboard-diabetes-regression-model-debugging.ipynb)| Tabular | |
+| [Housing Classification Model](notebooks/tabular/responsibleaidashboard-housing-classification-model-debugging.ipynb) | Tabular | |
+| [Housing Decision Making](notebooks/tabular/responsibleaidashboard-housing-decision-making.ipynb) | Tabular | |
+| [Multiclass DNN Model Debugging](notebooks/tabular/responsibleaidashboard-multiclass-dnn-model-debugging.ipynb) | Tabular | |
+| [Orange Juice Forecasting](notebooks/tabular/responsibleaidashboard-orange-juice-forecasting.ipynb) | Tabular | |
+| [Hugging Face BLBooks Genre Text Classification](notebooks/text/responsibleaidashboard-blbooksgenre-binary-text-classification-model-debugging.ipynb) |  Text | |
+| [Covid Event Multilabel Text Classification Model Debugging](notebooks/text/responsibleaidashboard-covid-event-multilabel-text-classification-model-debugging.ipynb) | Text | |
+| [DBPedia Text Classification Model Debugging](notebooks/text/responsibleaidashboard-DBPedia-text-classification-model-debugging.ipynb) | Text | |
+| [OpenAI Model Debugging](notebooks/text/responsibleaidashboard-openai-model-debugging.ipynb) | Text | |
+| [Question-Answering Model Debugging ](notebooks/text/responsibleaidashboard-question-answering-model-debugging.ipynb) | Text | |
+| [Fridge Image Classification Model Debugging](notebooks/vision/responsibleaidashboard-fridge-image-classification-model-debugging.ipynb) | Vision | |
+| [Fridge Multi-label Image Classification Model Debugging](notebooks/vision/responsibleaidashboard-fridge-multilabel-image-classification-model-debugging.ipynb)| Vision | |
+| [Fridge Object Detection Model Debugging](notebooks/vision/responsibleaidashboard-fridge-object-detection-model-debugging.ipynb)| Vision | |
 | [Cognitive Services: Speech-to-Text Fairness Testing](https://github.com/microsoft/responsible-ai-toolbox/tree/main/notebooks/cognitive-services-examples/speech-to-text) | Cognitive Services | |
 | [Cognitive Services: Face Verification Fairness Testing](https://github.com/microsoft/responsible-ai-toolbox/tree/main/notebooks/cognitive-services-examples/face-verification)| Cognitive Services | |
 | **[Azure ML](https://github.com/Azure/azureml-examples/tree/main/sdk/python/responsible-ai)**| | |
