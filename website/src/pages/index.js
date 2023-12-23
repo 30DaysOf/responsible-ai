@@ -23,7 +23,7 @@ const FeatureList = [
     title: 'Responsible AI Dashboard',
     tag: 'Concepts',
     tagColor: 'badge badge--primary',
-    img: "img/landing/rai-collection-2.jpeg",
+    img: "img/landing/rai-collection-1.jpeg",
     description: (
       <>
         This notebook will walk you through the process of ..... with the Responsible AI Toolkit.
@@ -34,7 +34,7 @@ const FeatureList = [
     title: 'Exercise 3',
     tag: 'Tabular Model',
     tagColor: 'badge badge--warning',
-    img: "img/landing/rai-collection-3.jpeg",
+    img: "img/landing/rai-collection-5.jpeg",
     description: (
       <>
         This notebook will walk you through the process of ..... with the Responsible AI Toolkit.
@@ -45,7 +45,7 @@ const FeatureList = [
     title: 'Exercise 4',
     tag: 'Tabular Model',
     tagColor: 'badge badge--warning',
-    img: "img/landing/rai-collection-4.jpeg",
+    img: "img/landing/rai-collection-5.jpeg",
     description: (
       <>
         This notebook will walk you through the process of ..... with the Responsible AI Toolkit.
@@ -78,7 +78,7 @@ const FeatureList = [
     title: 'Exercise 7',
     tag: 'Text Model',
     tagColor: 'badge badge--success',
-    img: "img/landing/rai-collection-7.jpeg",
+    img: "img/landing/rai-collection-6.jpeg",
     description: (
       <>
         This notebook will walk you through the process of ..... with the Responsible AI Toolkit.
@@ -89,7 +89,7 @@ const FeatureList = [
     title: 'Exercise 8',
     tag: 'Text Model',
     tagColor: 'badge badge--success',
-    img: "img/landing/rai-collection-8.jpeg",
+    img: "img/landing/rai-collection-6.jpeg",
     description: (
       <>
         This notebook will walk you through the process of ..... with the Responsible AI Toolkit.
@@ -100,7 +100,7 @@ const FeatureList = [
     title: 'Exercise 9',
     tag: 'Vision Model',
     tagColor: 'badge badge--danger',
-    img: "img/landing/rai-collection-9.jpeg",
+    img: "img/landing/rai-collection-7.jpeg",
     description: (
       <>
         This notebook will walk you through the process of ..... with the Responsible AI Toolkit.
@@ -111,7 +111,7 @@ const FeatureList = [
     title: 'Exercise 10',
     tag: 'Vision Model',
     tagColor: 'badge badge--danger',
-    img: "img/landing/rai-collection-10.jpeg",
+    img: "img/landing/rai-collection-7.jpeg",
     description: (
       <>
         This notebook will walk you through the process of ..... with the Responsible AI Toolkit.

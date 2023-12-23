@@ -95,19 +95,31 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'basics',
+            sidebarId: 'concepts',
             position: 'left',
-            label: 'Basics',
+            label: 'Concepts',
           },
 
           {
             type: 'docSidebar',
-            sidebarId: 'subset',
+            sidebarId: 'tabular',
             position: 'left',
-            label: 'Extras',
+            label: 'Tabular',
           },
 
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {
+            type: 'docSidebar',
+            sidebarId: 'text',
+            position: 'left',
+            label: 'Text',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'vision',
+            position: 'left',
+            label: 'Vision',
+          },
+          {to: '/blog', label: 'Blog', position: 'right'},
 
           {
             href: 'https://github.com/30DaysOf/responsible-ai',
