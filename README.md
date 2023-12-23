@@ -2,7 +2,8 @@
 
 This project provides a guided roadmap and hands-on exercises to learn about Responsible AI. Content is structured for self-paced learning with a focus on skilling up from core concepts to applied techniques and tools for real-world applications in production - in 30 days.
 
-> [!NOTE] This repository focuses on using the open-source [Responsible AI Toolbox](https://responsibleaitoolbox.ai/) to learn and implement responsible AI practices in your AI solutions.
+> [!NOTE]  
+> This repository focuses on using the open-source [Responsible AI Toolbox](https://responsibleaitoolbox.ai/) to learn and implement responsible AI practices in your AI solutions.
 
 The [Responsible AI Dashboard](https://responsibleaitoolbox.ai/introducing-responsible-ai-dashboard/) is a _single pane of glass_ that gives you a holistic, integrated view of these tools - enabling an end-to-end assessment of responsible AI practices in your AI solution for model debugging or decision making.
 

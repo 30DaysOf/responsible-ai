@@ -18,10 +18,11 @@
 	  },
 	  "vscode": {
 		"extensions": [
-		  "ms-toolsai.jupyter",
-		  "ms-python.python",
-		  "GitHub.copilot",
-		  "GitHub.copilot-chat"
+			"ms-toolsai.jupyter",
+			"ms-python.python",
+			"GitHub.copilot",
+			"GitHub.copilot-chat",
+			"github.vscode-github-actions"
 		]
 	  }
 	}
