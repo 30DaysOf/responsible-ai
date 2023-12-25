@@ -9,10 +9,11 @@ import styles from './index.module.css';
 
 const FeatureList = [
   {
-    title: 'Responsbile AI Principles',
-    tag: 'Concepts',
-    tagColor: 'badge badge--primary',
-    img: "img/landing/rai-collection-1.jpeg",
+    title: '🧰 | Responsbile AI Principles',
+    isConcept: true,
+    isDebugging: false,
+    isDecision: false,
+    img: "img/landing/rai.jpeg",
     description: (
       <>
         This notebook will walk you through the process of ..... with the Responsible AI Toolkit.
@@ -20,10 +21,11 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Responsible AI Dashboard',
-    tag: 'Concepts',
-    tagColor: 'badge badge--primary',
-    img: "img/landing/rai-collection-1.jpeg",
+    title: '🧰 | Responsible AI Dashboard',
+    isConcept: true,
+    isDebugging: false,
+    isDecision: false,
+    img: "img/landing/rai.jpeg",
     description: (
       <>
         This notebook will walk you through the process of ..... with the Responsible AI Toolkit.
@@ -31,9 +33,150 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Exercise 3',
-    tag: 'Tabular Model',
-    tagColor: 'badge badge--warning',
+    title: '🧰 | Error Analysis Dashboard',
+    isConcept: true,
+    isDebugging: false,
+    isDecision: false,
+    img: "img/landing/rai.jpeg",
+    description: (
+      <>
+        This notebook will walk you through the process of ..... with the Responsible AI Toolkit.
+      </>
+    ),
+  },
+  {
+    title: '🧰 | Interpretability Dashboard',
+    isConcept: true,
+    isDebugging: false,
+    isDecision: false,
+    img: "img/landing/rai.jpeg",
+    description: (
+      <>
+        This notebook will walk you through the process of ..... with the Responsible AI Toolkit.
+      </>
+    ),
+  },
+  {
+    title: '🧰 | Fairness Dashboard',
+    isConcept: true,
+    isDebugging: false,
+    isDecision: false,
+    img: "img/landing/rai.jpeg",
+    description: (
+      <>
+        This notebook will walk you through the process of ..... with the Responsible AI Toolkit.
+      </>
+    ),
+  },
+  {
+    title: '🧰 | Getting Started',
+    isConcept: true,
+    isDebugging: false,
+    isDecision: false,
+    img: "img/landing/rai.jpeg",
+    description: (
+      <>
+        This notebook will walk you through the process of ..... with the Responsible AI Toolkit.
+      </>
+    ),
+  },
+  {
+    title: '📒 | Census Classification',
+    notebook: 'Tabular',
+    isConcept: false,
+    isDebugging: true,
+    isDecision: false,
+    img: "img/landing/rai-collection-3.jpeg",
+    description: (
+      <>
+        This notebook will walk you through the process of ..... with the Responsible AI Toolkit.
+      </>
+    ),
+  },
+  {
+    title: '📒 | Diabetes Regression Pt. 1',
+    notebook: 'Tabular',
+    isConcept: false,
+    isDebugging: true,
+    isDecision: false,
+    img: "img/landing/rai-collection-3.jpeg",
+    description: (
+      <>
+        This notebook will walk you through the process of ..... with the Responsible AI Toolkit.
+      </>
+    ),
+  },
+  {
+    title: '📒 | Diabetes Regression Pt. 2',
+    notebook: 'Tabular',
+    isConcept: false,
+    isDebugging: false,
+    isDecision: true,
+    img: "img/landing/rai-collection-3.jpeg",
+    description: (
+      <>
+        This notebook will walk you through the process of ..... with the Responsible AI Toolkit.
+      </>
+    ),
+  },
+  {
+    title: '📒 | Housing Classification Pt.1',
+    notebook: 'Tabular',
+    isConcept: false,
+    isDebugging: true,
+    isDecision: false,
+    img: "img/landing/rai-collection-3.jpeg",
+    description: (
+      <>
+        This notebook will walk you through the process of ..... with the Responsible AI Toolkit.
+      </>
+    ),
+  },
+  {
+    title: '📒 | Housing Classification Pt.2',
+    notebook: 'Tabular',
+    isConcept: false,
+    isDebugging: false,
+    isDecision: true,
+    img: "img/landing/rai-collection-3.jpeg",
+    description: (
+      <>
+        This notebook will walk you through the process of ..... with the Responsible AI Toolkit.
+      </>
+    ),
+  },
+  {
+    title: '📒 | DNN Multiclass',
+    notebook: 'Tabular',
+    isConcept: false,
+    isDebugging: true,
+    isDecision: false,
+    img: "img/landing/rai-collection-3.jpeg",
+    description: (
+      <>
+        This notebook will walk you through the process of ..... with the Responsible AI Toolkit.
+      </>
+    ),
+  },
+  {
+    title: '📒 | Orange Juice Forecasting',
+    notebook: 'Tabular',
+    isConcept: false,
+    isDebugging: true,
+    isDecision: false,
+    img: "img/landing/rai-collection-3.jpeg",
+    description: (
+      <>
+        This notebook will walk you through the process of ..... with the Responsible AI Toolkit.
+      </>
+    ),
+  },
+  {
+    title: '📕 | Blbooksgenre Classification',
+    notebook: 'Text',
+    isConcept: false,
+    isDebugging: true,
+    isDecision: false,
     img: "img/landing/rai-collection-5.jpeg",
     description: (
       <>
@@ -42,9 +185,11 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Exercise 4',
-    tag: 'Tabular Model',
-    tagColor: 'badge badge--warning',
+    title: '📕 | Covid Event Classification',
+    notebook: 'Text',
+    isConcept: false,
+    isDebugging: true,
+    isDecision: false,
     img: "img/landing/rai-collection-5.jpeg",
     description: (
       <>
@@ -53,9 +198,11 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Exercise 5',
-    tag: 'Tabular Model',
-    tagColor: 'badge badge--warning',
+    title: '📕 | DBPedia Text Classification',
+    notebook: 'Text',
+    isConcept: false,
+    isDebugging: true,
+    isDecision: false,
     img: "img/landing/rai-collection-5.jpeg",
     description: (
       <>
@@ -64,10 +211,12 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Exercise 6',
-    tag: 'Text Model',
-    tagColor: 'badge badge--success',
-    img: "img/landing/rai-collection-6.jpeg",
+    title: '📕 | OpenAI Exploration',
+    notebook: 'Text',
+    isConcept: false,
+    isDebugging: true,
+    isDecision: false,
+    img: "img/landing/rai-collection-5.jpeg",
     description: (
       <>
         This notebook will walk you through the process of ..... with the Responsible AI Toolkit.
@@ -75,10 +224,12 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Exercise 7',
-    tag: 'Text Model',
-    tagColor: 'badge badge--success',
-    img: "img/landing/rai-collection-6.jpeg",
+    title: '📕 | Question Answering',
+    notebook: 'Text',
+    isConcept: false,
+    isDebugging: true,
+    isDecision: false,
+    img: "img/landing/rai-collection-5.jpeg",
     description: (
       <>
         This notebook will walk you through the process of ..... with the Responsible AI Toolkit.
@@ -86,10 +237,12 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Exercise 8',
-    tag: 'Text Model',
-    tagColor: 'badge badge--success',
-    img: "img/landing/rai-collection-6.jpeg",
+    title: '📗 | Fridge Image Classification',
+    notebook: 'Vision',
+    isConcept: false,
+    isDebugging: true,
+    isDecision: false,
+    img: "img/landing/rai-collection-2.jpeg",
     description: (
       <>
         This notebook will walk you through the process of ..... with the Responsible AI Toolkit.
@@ -97,10 +250,12 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Exercise 9',
-    tag: 'Vision Model',
-    tagColor: 'badge badge--danger',
-    img: "img/landing/rai-collection-7.jpeg",
+    title: '📗 | Fridge Multi Classification',
+    notebook: 'Vision',
+    isConcept: false,
+    isDebugging: true,
+    isDecision: false,
+    img: "img/landing/rai-collection-2.jpeg",
     description: (
       <>
         This notebook will walk you through the process of ..... with the Responsible AI Toolkit.
@@ -108,10 +263,12 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Exercise 10',
-    tag: 'Vision Model',
-    tagColor: 'badge badge--danger',
-    img: "img/landing/rai-collection-7.jpeg",
+    title: '📗 | Fridge Object Detection',
+    notebook: 'Vision',
+    isConcept: false,
+    isDebugging: true,
+    isDecision: false,
+    img: "img/landing/rai-collection-2.jpeg",
     description: (
       <>
         This notebook will walk you through the process of ..... with the Responsible AI Toolkit.
@@ -159,7 +316,7 @@ function PageFeatures() {
   );
 }
 
-function Feature({img, title, description, tag, tagColor}) {
+function Feature({img, title, description, notebook, isConcept, isDebugging, isDecision}) {
   return (
     <div className={clsx('col col--3')}>
       <div className="card-demo">
@@ -174,11 +331,18 @@ function Feature({img, title, description, tag, tagColor}) {
             <h4>{title}</h4>
             <small>
               {description}
-              <span className={tagColor}>{tag}</span>
+              { isConcept &&  <span className="badge badge--secondary margin-left--xs"> Concept </span>}
+              { notebook!=null && <span className="badge badge--primary margin-left--xs"> {notebook} </span>}
+              { isDebugging && <span className="badge badge--danger margin-left--xs"> Model Debugging </span>}
+              { isDecision && <span className="badge badge--success margin-left--xs"> Decision Making </span>}
             </small>
           </div>
           <div className="card__footer">
-            <button className="button disabled button--info button--block">Open Notebook</button>
+            {
+              notebook==null ?
+              <button className="button disabled button--secondary button--block">Learn Concept</button> :
+              <button className="button disabled button--info button--block">Launch Notebook</button>               
+            }
           </div>
         </div>
       </div>

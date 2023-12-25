@@ -97,27 +97,27 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'concepts',
             position: 'left',
-            label: 'Concepts',
+            label: '🧰 | Concepts',
           },
 
           {
             type: 'docSidebar',
             sidebarId: 'tabular',
             position: 'left',
-            label: 'Tabular',
+            label: '📒 | Tabular',
           },
 
           {
             type: 'docSidebar',
             sidebarId: 'text',
             position: 'left',
-            label: 'Text',
+            label: '📕 | Text',
           },
           {
             type: 'docSidebar',
             sidebarId: 'vision',
             position: 'left',
-            label: 'Vision',
+            label: '📗 | Vision',
           },
           {to: '/blog', label: 'Blog', position: 'right'},
 
