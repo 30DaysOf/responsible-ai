@@ -29,7 +29,7 @@ I've setup the dev container to have [GitHub Copilot Chat](https://marketplace.v
 
 By the end of the #30Days you should be able to:
  - Explain what Responsible AI is and why it matters
- - Describe the core principles of Responsbile AI
+ - Describe the core principles of Resposible AI
  - Describe the Responsible AI Toolbox & components.
  - Assess your own AI models using the Responsible AI toolbox interactively.
  

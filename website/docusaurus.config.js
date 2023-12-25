@@ -73,7 +73,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/banners/000-roadmap.png',
 
       colorMode: {
         defaultMode: 'light',

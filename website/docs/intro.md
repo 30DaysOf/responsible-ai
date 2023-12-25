@@ -152,31 +152,32 @@ In the table below, the "Type" of notebook defines the kind of data and model be
 | Notebook | Type | Description |
 | --- | --- | --- |
 | **Introduction**| | |
-| [Responsible AI Toolbox](notebooks/tabular/tour.ipynb) | -| Tour of the RAI Toolbox as documentation (no code) |
-| [Getting Started](notebooks/tabular/getting-started.ipynb) | - | Explains high-level APIs and workflows (setup validation) |
+| [Responsible AI Toolbox](/notebooks/tabular/01-tour.ipynb) | -| Tour of the RAI Toolbox as documentation (no code) |
+| [Getting Started](/notebooks/tabular/02-getting-started.ipynb) | - | Explains high-level APIs and workflows (setup validation) |
 | **[RAI Toolbox](https://github.com/microsoft/responsible-ai-toolbox?tab=readme-ov-file#useful-links)**| | |
-| [Census Classification Model Debugging](notebooks/tabular/responsibleaidashboard-census-classification-model-debugging.ipynb) | Tabular | |
-|[Diabetes Decision Making ](notebooks/tabular/responsibleaidashboard-diabetes-decision-making.ipynb) | Tabular | |
-| [Diabetes Regression Model Debugging](notebooks/tabular/responsibleaidashboard-diabetes-regression-model-debugging.ipynb)| Tabular | |
-| [Housing Classification Model](notebooks/tabular/responsibleaidashboard-housing-classification-model-debugging.ipynb) | Tabular | |
-| [Housing Decision Making](notebooks/tabular/responsibleaidashboard-housing-decision-making.ipynb) | Tabular | |
-| [Multiclass DNN Model Debugging](notebooks/tabular/responsibleaidashboard-multiclass-dnn-model-debugging.ipynb) | Tabular | |
-| [Orange Juice Forecasting](notebooks/tabular/responsibleaidashboard-orange-juice-forecasting.ipynb) | Tabular | |
-| [Hugging Face BLBooks Genre Text Classification](notebooks/text/responsibleaidashboard-blbooksgenre-binary-text-classification-model-debugging.ipynb) |  Text | |
-| [Covid Event Multilabel Text Classification Model Debugging](notebooks/text/responsibleaidashboard-covid-event-multilabel-text-classification-model-debugging.ipynb) | Text | |
-| [DBPedia Text Classification Model Debugging](notebooks/text/responsibleaidashboard-DBPedia-text-classification-model-debugging.ipynb) | Text | |
-| [OpenAI Model Debugging](notebooks/text/responsibleaidashboard-openai-model-debugging.ipynb) | Text | |
-| [Question-Answering Model Debugging ](notebooks/text/responsibleaidashboard-question-answering-model-debugging.ipynb) | Text | |
-| [Fridge Image Classification Model Debugging](notebooks/vision/responsibleaidashboard-fridge-image-classification-model-debugging.ipynb) | Vision | |
-| [Fridge Multi-label Image Classification Model Debugging](notebooks/vision/responsibleaidashboard-fridge-multilabel-image-classification-model-debugging.ipynb)| Vision | |
-| [Fridge Object Detection Model Debugging](notebooks/vision/responsibleaidashboard-fridge-object-detection-model-debugging.ipynb)| Vision | |
-| [Cognitive Services: Speech-to-Text Fairness Testing](https://github.com/microsoft/responsible-ai-toolbox/tree/main/notebooks/cognitive-services-examples/speech-to-text) | Cognitive Services | |
-| [Cognitive Services: Face Verification Fairness Testing](https://github.com/microsoft/responsible-ai-toolbox/tree/main/notebooks/cognitive-services-examples/face-verification)| Cognitive Services | |
+| [Census Classification Model Debugging](/notebooks/tabular/03-rai-model-debugging-census-classification.ipynb) | Tabular | |
+|[Diabetes Decision Making ](/notebooks/tabular/04-rai-model-debugging-diabetes-regression.ipynb) | Tabular | |
+| [Diabetes Regression Model Debugging](/notebooks/tabular/05-rai-decision-making-diabetes-regression.ipynb)| Tabular | |
+| Housing Classification Model | Tabular | |
+| Housing Decision Making | Tabular | |
+| Multiclass DNN Model Debugging | Tabular | |
+| Orange Juice Forecasting | Tabular | |
+| Hugging Face BLBooks Genre Text Classification |  Text | |
+| Covid Event Multilabel Text Classification Model Debugging | Text | |
+| DBPedia Text Classification Model Debugging | Text | |
+| OpenAI Model Debugging | Text | |
+| Question-Answering Model Debugging | Text | |
+| Fridge Image Classification Model Debugging | Vision | |
+| Fridge Multi-label Image Classification Model Debugging)| Vision | |
+| Fridge Object Detection Model Debugging| Vision | |
+| Cognitive Services: Speech-to-Text Fairness Testing | Cognitive Services | |
+| Cognitive Services: Face Verification Fairness Testing | Cognitive Services | |
 | **[Azure ML](https://github.com/Azure/azureml-examples/tree/main/sdk/python/responsible-ai)**| | |
-| [Diabetes Regression Model Debugging](https://github.com/Azure/azureml-examples/blob/main/sdk/python/responsible-ai/tabular/responsibleaidashboard-diabetes-regression-model-debugging/responsibleaidashboard-diabetes-regression-model-debugging.ipynb) |  Tabular | [sklearn dataset](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_diabetes.html)|
-| [Programmer Regression Model Debugging](https://github.com/Azure/azureml-examples/blob/main/sdk/python/responsible-ai/tabular/responsibleaidashboard-programmer-regression-model-debugging/responsibleaidashboard-programmer-regression-model-debugging.ipynb) |  Tabular | [Programmers MLTable dataset](https://github.com/Azure/azureml-examples/blob/main/sdk/python/responsible-ai/tabular/responsibleaidashboard-programmer-regression-model-debugging/data-programmer-regression) |
-| [Finance Loan Classification](https://github.com/Azure/azureml-examples/blob/main/sdk/python/responsible-ai/tabular/responsibleaidashboard-finance-loan-classification/responsibleaidashboard-finance-loan-classification.ipynb) |  Tabular | [Finance Story dataset](https://github.com/Azure/azureml-examples/blob/main/sdk/python/responsible-ai/tabular/responsibleaidashboard-finance-loan-classification/Fabricated_Loan_data.csv) |
-| [Covid Healthcare Classification](https://github.com/Azure/azureml-examples/blob/main/sdk/python/responsible-ai/tabular/responsibleaidashboard-healthcare-covid-classification/responsibleaidashboard-healthcare-covid-classification.ipynb) |  Tabular | [Healthcare Story dataset](https://github.com/Azure/azureml-examples/blob/main/sdk/python/responsible-ai/tabular/responsibleaidashboard-healthcare-covid-classification/data_covid_classification) |
+| Diabetes Regression Model Debugging |  Tabular | [sklearn dataset](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_diabetes.html)|
+| Programmer Regression Model Debugging |  Tabular | [Programmers MLTable dataset](https://github.com/Azure/azureml-examples/blob/main/sdk/python/responsible-ai/tabular/responsibleaidashboard-programmer-regression-model-debugging/data-programmer-regression) |
+| Finance Loan Classification |  Tabular | [Finance Story dataset](https://github.com/Azure/azureml-examples/blob/main/sdk/python/responsible-ai/tabular/responsibleaidashboard-finance-loan-classification/Fabricated_Loan_data.csv) |
+| Covid Healthcare Classification |  Tabular | [Healthcare Story dataset](https://github.com/Azure/azureml-examples/blob/main/sdk/python/responsible-ai/tabular/responsibleaidashboard-healthcare-covid-classification/data_covid_classification) |
+<!--
 | [Education Student Attrition Classification](https://github.com/Azure/azureml-examples/blob/main/sdk/python/responsible-ai/tabular/responsibleaidashboard-education-student-attrition-classificaton/responsibleaidashboard-education-student-attrition-classificaton.ipynb) |  Tabular | [Education Story dataset](https://github.com/Azure/azureml-examples/blob/main/sdk/python/responsible-ai/tabular/responsibleaidashboard-education-student-attrition-classificaton/Fabricated_Student_Attrition_Data.csv) |
 | [Housing Classification Model](https://github.com/Azure/azureml-examples/blob/main/sdk/python/responsible-ai/tabular/responsibleaidashboard-housing-classification-model-debugging/responsibleaidashboard-housing-classification-model-debugging.ipynb) |  Tabular | [Kaggle Housing dataset](https://www.kaggle.com/alphaepsilon/housing-prices-dataset) |
 | [Housing Decision Making](https://github.com/Azure/azureml-examples/blob/main/sdk/python/responsible-ai/tabular/responsibleaidashboard-housing-decision-making/responsibleaidashboard-housing-decision-making.ipynb) |  Tabular | [Kaggle Housing dataset](https://www.kaggle.com/alphaepsilon/housing-prices-dataset) |
@@ -192,3 +193,4 @@ In the table below, the "Type" of notebook defines the kind of data and model be
 |[Image Multilabel Classification Fridge](https://github.com/Azure/azureml-examples/blob/main/sdk/python/responsible-ai/vision/responsibleaidashboard-image-multilabel-classification-fridge.ipynb) | Image | [Fridge Images dataset](https://github.com/microsoft/computervision-recipes/tree/master/scenarios/classification) |
 |[Object Detection MSCOCO](https://github.com/Azure/azureml-examples/blob/main/sdk/python/responsible-ai/vision/responsibleaidashboard-object-detection-MSCOCO.ipynb) | Image | [Object Detection Fridge Images ataset](https://github.com/microsoft/computervision-recipes/tree/master/scenarios/detection) |
 | | | |
+-->
