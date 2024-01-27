@@ -3,13 +3,14 @@
 {
 
 	// Configure dev container environment 
+	"name" : "Responsible AI Toolbox",
 	"image": "mcr.microsoft.com/devcontainers/universal:2",
 	"hostRequirements": {
 	  "cpus": 4
 	},
 	"waitFor": "onCreateCommand",
 	"updateContentCommand": "python3 -m pip install -r requirements.txt",
-	"postCreateCommand": "cd website && npm install && npx docusaurus start",
+	// "postCreateCommand": "cd website && npm install && npx docusaurus start",
 
 	// Configure tool-specific properties.
 	"customizations": {
