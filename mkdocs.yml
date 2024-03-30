@@ -14,7 +14,7 @@ theme:
   font:
     code: Roboto Mono #Monospaced
     text: Roboto #Regular
-  logo: img/rai.jpeg
+  logo: img/logo.png
   palette: 
     - scheme: default  # Light Mode
       primary: black

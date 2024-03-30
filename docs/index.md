@@ -1,6 +1,6 @@
 # About This Project
 
-|![Responsible AI](./img/rai.jpeg)|
+|![Responsible AI](./img/rai-logo.png)|
 |:---:|
 | This repository captures notes and notebooks for learning the core principles of Responsible AI and applying them in practice using the Responsible AI Toolbox. The goal is to work through the concepts with hands-on exercises, one notebook at a time. The instructions should allow you to extend or replicate the steps with alternative datasets.|
 

@@ -35,6 +35,8 @@ const FeatureList = [
       </>
     ),
   },
+
+  /*
   {
     title: '#02 | Explore RAI Toolbox',
     isConcept: true,
@@ -337,7 +339,7 @@ const FeatureList = [
    * Azure Subscription
    * Azure Resource Group 
    * Azure ML Workspace 
-   */
+   *
   {
     title: '#26 | ProgrammersML Regression',
     notebook: 'Tabular',
@@ -521,6 +523,7 @@ const FeatureList = [
       </>
     ),
   },
+  */
 ];
 
 
@@ -606,9 +609,10 @@ export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`#30DaysOf Responsible AI`}
+      title={`Responsible AI For Developers`}
       description="Learn Responsible AI Principles and see them in practice using open-source Responsible AI Toolbox components with a Responsible AI Dashboard.">
       <PageHeader />
+      
       <main>
         <PageFeatures />
       </main>

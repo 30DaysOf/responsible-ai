@@ -8,8 +8,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '#30DaysOf Responsible AI',
-  tagline: 'From Core Principles To Applied Practices',
+  title: 'Responsible AI Cookbook',
+  tagline: 'Recipes for Generative AI Developers',
   url: 'https://30DaysOf.github.io',
   baseUrl: '/responsible-ai/',
   favicon: 'img/favicon.ico',
@@ -41,12 +41,13 @@ const config = {
           blogTitle: '#30DaysOf Responsible AI',
           blogDescription: 'Learn Core Principles of Responsible AI. Then explore tools and best practices to evaluate your responsible AI compliance for real-world applications.',
           blogSidebarCount:  30, // 'ALL',
-          blogSidebarTitle: 'Recent Posts',
+          blogSidebarTitle: 'Recent Articles',
           tagsBasePath: 'tags',
           archiveBasePath: 'archive',
           postsPerPage: 7,
           showReadingTime: true,
-          sortPosts: 'descending'
+          sortPosts: 'descending',
+          routeBasePath: '/', // Serve the blog at the site's root
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -83,16 +84,17 @@ const config = {
 
       navbar: {
 
-        title: 'Responsible AI',
+        title: 'Responsible AI Cookbook',
 
         logo: {
-          alt: 'My Site Logo',
-          src: 'img/landing/rai.jpeg',
+          alt: 'Responsible AI Site Logo',
+          src: 'img/logo.png',
         },
 
         style: 'primary',
 
         items: [
+          /*
           {
             type: 'docSidebar',
             sidebarId: 'concepts',
@@ -119,7 +121,10 @@ const config = {
             position: 'left',
             label: '📗 | Vision',
           },
-          {to: '/blog', label: 'Blog', position: 'right'},
+          */
+
+          {to: '/learn', label: 'Learn', position: 'right'},
+          {to: 'https://aka.ms/rai-hub/collection', label: 'Collection', position: 'right'},
 
           {
             href: 'https://github.com/30DaysOf/responsible-ai',
