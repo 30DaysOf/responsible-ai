@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"My Recent Posts","items":[{"title":"My Responsible AI Cookbook","permalink":"/responsible-ai/cookbook-kickoff","unlisted":false}]}')}}]);
