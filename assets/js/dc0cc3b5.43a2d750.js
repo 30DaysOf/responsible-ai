@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkwebsite=self.webpackChunkwebsite||[]).push([[4336],{1957:e=>{e.exports=JSON.parse('{"label":"recipes","permalink":"/responsible-ai/tags/recipes","allTagsPath":"/responsible-ai/tags","count":2,"unlisted":false}')}}]);
