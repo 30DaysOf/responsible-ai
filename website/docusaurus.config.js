@@ -44,7 +44,7 @@ const config = {
           blogSidebarTitle: 'My Recent Posts',
           tagsBasePath: 'tags',
           archiveBasePath: 'archive',
-          postsPerPage: 7,
+          postsPerPage: 1,
           showReadingTime: true,
           sortPosts: 'descending',
           routeBasePath: '/', // Serve the blog at the site's root
