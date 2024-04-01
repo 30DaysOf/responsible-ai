@@ -124,7 +124,8 @@ const config = {
           {to: '/learn', label: 'Learn', position: 'right'},
 
           */
-         
+    
+          {to: 'https://dev.to/nitya/series/25819', label: 'This Week In AI', position: 'right'},
           {to: 'https://aka.ms/rai-hub/collection', label: 'Collection', position: 'right'},
 
           {
