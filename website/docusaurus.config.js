@@ -41,7 +41,7 @@ const config = {
           blogTitle: '#30DaysOf Responsible AI',
           blogDescription: 'Learn Core Principles of Responsible AI. Then explore tools and best practices to evaluate your responsible AI compliance for real-world applications.',
           blogSidebarCount:  30, // 'ALL',
-          blogSidebarTitle: 'Recent Articles',
+          blogSidebarTitle: 'My Recent Posts',
           tagsBasePath: 'tags',
           archiveBasePath: 'archive',
           postsPerPage: 7,
@@ -121,9 +121,10 @@ const config = {
             position: 'left',
             label: '📗 | Vision',
           },
-          */
-
           {to: '/learn', label: 'Learn', position: 'right'},
+
+          */
+         
           {to: 'https://aka.ms/rai-hub/collection', label: 'Collection', position: 'right'},
 
           {
