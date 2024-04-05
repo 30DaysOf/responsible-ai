@@ -33,6 +33,7 @@ jsonschema
 requests
 torchmetrics
 vision_explanation_methods
+tqdm
 
 # Documentation
 mkdocs-material
